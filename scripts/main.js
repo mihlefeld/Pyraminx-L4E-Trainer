@@ -6,7 +6,7 @@ function resize(event) {
     }
     var vpWidth = document.documentElement.clientWidth;
     var gnds = document.getElementsByClassName('groupNameDiv');
-    var maxWidth = document.getElementById('allSelector').offsetWidth;
+    var maxWidth = document.getElementById('allSelector').offsetWidth + 0.99;
     var gap = parseFloat(getComputedStyle(gnds[0].nextSibling).gap);
     var itemWidth = gnds[0].nextSibling.firstChild.offsetWidth;
     for (var i = 0; i < gnds.length; i++) {

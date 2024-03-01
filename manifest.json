@@ -1,8 +1,8 @@
 {
-  "name": "PLL Trainer",
-  "short_name": "PLL",
-  "start_url": "/Megaminx-PLL-Trainer/index.html",
-  "description": "Alg trainer for megaminx PLL",
+  "name": "L4E Trainer",
+  "short_name": "L4E",
+  "start_url": "/Pyraminx-L4E-Trainer/index.html",
+  "description": "Alg trainer for pyraminx L4E",
   "display": "standalone",
   "background_color": "#353535",
   "icons": [
