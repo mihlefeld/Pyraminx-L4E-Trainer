@@ -1,0 +1,80 @@
+{
+  "name": "PLL Trainer",
+  "short_name": "PLL",
+  "start_url": "/Megaminx-PLL-Trainer/index.html",
+  "description": "Alg trainer for megaminx PLL",
+  "display": "standalone",
+  "background_color": "#353535",
+  "icons": [
+    {
+      "src": "mobile.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshots/mobile/selection.png",
+      "sizes": "538x1165",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Mobile selection ui"
+    },
+    {
+      "src": "screenshots/mobile/trainer.png",
+      "sizes": "538x1165",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Mobile trainer ui"
+    },
+    {
+      "src": "screenshots/mobile/hint.png",
+      "sizes": "538x1165",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Mobile hint window"
+    },
+    {
+      "src": "screenshots/mobile/settings.png",
+      "sizes": "538x1165",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Mobile settings window"
+    },
+    {
+      "src": "screenshots/desktop/selection.png",
+      "sizes": "2563x1283",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Desktop selection ui"
+    },
+    {
+      "src": "screenshots/desktop/trainer.png",
+      "sizes": "2563x1283",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Desktop trainer ui"
+    },
+    {
+      "src": "screenshots/desktop/hint.png",
+      "sizes": "2563x1283",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Desktop hint window"
+    },
+    {
+      "src": "screenshots/desktop/settings.png",
+      "sizes": "2563x1283",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Desktop settings window"
+    }
+  ]
+}
