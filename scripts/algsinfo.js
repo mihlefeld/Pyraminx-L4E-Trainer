@@ -242,7 +242,7 @@ var algsInfo = {
         "name": "Bad Sochi",
         "a": [
             "(U) L' U L U R U' R'",
-            "(U')  L' U' L U R U R'"
+            "L' U' L U R U R'"
         ],
         "s": "R U B U' B' U' R'"
     },
