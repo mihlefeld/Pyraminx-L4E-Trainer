@@ -6,9 +6,9 @@ function resize(event) {
     }
     var vpWidth = document.documentElement.clientWidth;
     var gnds = document.getElementsByClassName('groupNameDiv');
-    var maxWidth = document.getElementById('allSelector').offsetWidth + 0.99;
     var gap = parseFloat(getComputedStyle(gnds[0].nextSibling).gap);
-    var itemWidth = gnds[0].nextSibling.firstChild.offsetWidth;
+    var maxWidth = document.getElementById('allSelector').getBoundingClientRect().width;
+    var itemWidth = gnds[0].nextSibling.firstChild.getBoundingClientRect().width;
     for (var i = 0; i < gnds.length; i++) {
         var gnd = gnds[i];
         var num_items = Math.floor((maxWidth - itemWidth) / (itemWidth + gap)) + 1;
