@@ -320,7 +320,7 @@ var algsInfo = {
     "34": {
         "name": "Double Sexy",
         "a": [
-            "R U' R' U' R U R'",
+            "R U R' U R U' R'",
             "L' U' L U S",
             "(U') R U' R' U R U R'",
             "(U) R U R' U' R U' R'",
@@ -331,7 +331,7 @@ var algsInfo = {
     "35": {
         "name": "Double Ugly",
         "a": [
-            "(U') L' U L U L' U' L",
+            "(U') L' U' L U' L' U L",
             "(U') R U R' U' H",
             "L' U L U' L' U' L",
             "(U) L' U' L U L' U L",
